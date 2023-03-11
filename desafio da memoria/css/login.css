@@ -1,0 +1,50 @@
+body{
+    /* background-image: url('/images/bg-pikachu.png'); */
+    /* background-size: cover; */
+    background-color: rgba(219, 219, 9, 0.863);
+}
+
+.form_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.div_login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.div_login img{
+    width: 350px;
+}
+
+.div_login h1{
+    font-size:larger;
+}
+
+.input_login{
+    border: solid 2px;
+    border-radius: 10px;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.buttom_login{
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+}
+
+.buttom_login:disabled{
+    color: gray;
+    background-color: rgb(221, 221, 221);
+    cursor: auto;
+}
